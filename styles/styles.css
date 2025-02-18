@@ -13,12 +13,13 @@ header {
 }
 
 nav ul {
+    text-align: center;
     list-style: none;
     padding: 0;
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
     margin: 0 15px;
 }
 
@@ -27,8 +28,13 @@ nav ul li a {
     text-decoration: none;
 }
 
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
 main {
     padding: 20px;
+    padding-bottom: 50px;
 }
 
 footer {
